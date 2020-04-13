@@ -1,8 +1,8 @@
 ## Hydrabot weekly stats
 
-Project boards such as Jira and Codetree are massively successful more for their abilities to help aggregate statistics about an organisations flow
+Project boards such as Jira and Codetree are massively successful mainly for their ability to help aggregate statistics about an organisation's flow
 
-🤖 Hydrabot generates automated weekly summaries based on your Github repositories activities. **Hydrab0t weekly stats** is a cherry 🍒 on the cake 🧁. 
+🤖 Hydrabot generates automated weekly summaries based on your Github repository's activities. **Hydrab0t weekly stats** is a cherry 🍒 on the cake 🧁. 
 
 The curated weekly reports include information on:
 

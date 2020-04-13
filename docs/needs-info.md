@@ -1,12 +1,12 @@
 ## Hydrabot: Needs Info
 
 [See the playbook](#below)  
-🤖 Hydrab0t watches for issues in which the author has failed to cater to a maintainer's request to provide for more information. The issue however is re-opened if the intended author does provides more information on the issue at a later stage. The workflow for this is as follows:
+🤖 Hydrabot watches for issues in which the author has failed to cater to a maintainer's request to provide for more information. The issue however is re-opened if the intended author does provides more information on the issue at a later stage. The workflow for this is as follows:
 
-- Hydrab0t scans for issues that are labeled as `needs-info`
+- Hydrabot scans for issues that are labeled as `needs-info`
 - For issues that were labeled with the label `needs-info` `daysUntilClose` days before, it checks if the author has provided more information.
 - If not, it closes the issue with a `closeComment`.
-- Hydrab0t re-opens this issue once the author has provided the requested information
+- Hydrabot re-opens this issue once the author has provided the requested information
 
 <details id="below"><summary>🔖 See Playbook</summary>
   <p>

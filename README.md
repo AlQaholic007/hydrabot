@@ -71,8 +71,8 @@ branches:
 ##
 needsInfo:
   needsInfoLabel: {{label}} # issues needing information have this label
-  closeComment: # closing comment to close the issue
-  daysUntilClose: # days to wait before closing the issue
+  closeComment: {{body}} # closing comment to close the issue
+  daysUntilClose: {{days}} # days to wait before closing the issue
 ##
 # automatically perform validations on issues and pull requests 
 ##
@@ -94,15 +94,15 @@ hydrabot:
 ##
 deploy:
   {{label}}:
-    environment: # deploy to which github environment
-    description: # description for the environment
-    transient_environment:
-    auto_merge: # deploy even when merge conflict with default branch
+    environment: {{name}} # deploy to which github environment
+    description: {{body}} # description for the environment
+    transient_environment: {{ boolean }}
+    auto_merge: {{ boolean }} # deploy even when merge conflict with default branch
     required_contexts:
       - {{context}} # required checks before deploying
     payload:
-      port:
-      https:
+      port: {{ port number }}
+      https: {{ boolean }}
 ```
 
 ### Create issue branch plays

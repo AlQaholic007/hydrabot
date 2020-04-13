@@ -528,7 +528,7 @@ Validate pull requests for mergeability based on content and structure of your P
 </details>
 <br>
 
-**Milestone**: Ensure that all Pull Requests have a milestone associated. Hydrab0t will also detect when you are [closing an issue](https://help.github.com/articles/closing-issues-using-keywords/) that is associated with the specified milestone.
+**Milestone**: Ensure that all Pull Requests have a milestone associated. Hydrabot will also detect when you are [closing an issue](https://help.github.com/articles/closing-issues-using-keywords/) that is associated with the specified milestone.
 
 <details><summary>🔖 See Playbook</summary>
   <p>
@@ -565,7 +565,7 @@ Validate pull requests for mergeability based on content and structure of your P
   </p>
 </details>
 <br>
-<!-- **Projects**: Ensure that all Pull Requests have a Project associated. Hydrab0t will also detect when you are [closing an issue](https://help.github.com/articles/closing-issues-using-keywords/) that is associated with the specified project. Useful when you want to make sure all issues and pull requests merged are visible on a [project board](https://help.github.com/articles/about-project-boards/).
+<!-- **Projects**: Ensure that all Pull Requests have a Project associated. Hydrabot will also detect when you are [closing an issue](https://help.github.com/articles/closing-issues-using-keywords/) that is associated with the specified project. Useful when you want to make sure all issues and pull requests merged are visible on a [project board](https://help.github.com/articles/about-project-boards/).
 <details><summary>🔖 See Playbook</summary>
   <p>
 
