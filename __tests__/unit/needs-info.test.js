@@ -31,7 +31,8 @@ describe('NoResponse', function () {
           createComment: jest.fn(),
           createLabel: jest.fn(),
           edit: jest.fn().mockReturnValue(Promise.resolve()),
-          getLabel: jest.fn().mockReturnValue(Promise.resolve())
+          getLabel: jest.fn().mockReturnValue(Promise.resolve()),
+          lstLabelsOnIssue: jest.fn().mockReturnValue(Promise.resolve())
         },
         search: {
           issues: jest.fn().mockReturnValue(Promise.resolve({data: {items: []}}))
@@ -224,7 +225,7 @@ describe('NoResponse', function () {
               }
             })
           },
-          getIssueLabels: () => {
+          listLabelsOnIssue: () => {
             return Promise.resolve({
               data: issueProperties.labels
             })
