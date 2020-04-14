@@ -18,6 +18,7 @@
   </a>
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/AlQaholic007/hydrabot?color=lightseagreen">
   <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/AlQaholic007/hydrabot">
+  <img src=https://img.shields.io/badge/code_style-standard-brightgreen.svg>
 </p>
 
 > 🤖 **Hydrab0t** is essentially Jarvis for your team's GitHub workflow.
