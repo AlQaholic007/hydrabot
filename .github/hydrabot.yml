@@ -23,12 +23,12 @@ hydrabot:
           regex: ^\[WIP\]
           message: This PR is marked Work in Progress and cannot be merged
         must_include: 
-          regex: ^Closes \#\d$
+          regex: ^Closes \#\d*$
           message: PR must be associated with one or more issues
       - do: description
         and:
           - must_include:
-              regex: ^Closes \#\d$
+              regex: ^Closes \#\d*$
               message: PR must be associated with one or more issues
           - must_include:
               regex: approved:*
