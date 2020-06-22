@@ -26,12 +26,13 @@ hydrabot:
           regex: ^Closes \#\d$
           message: PR must be associated with one or more issues
       - do: description
-        must_include:
-          regex: ^Closes \#\d$
-          message: PR must be associated with one or more issues
-        must_include:
-          regex: approved:*
-          message: PR cannot be merged before being approved by maintainers
+        and:
+          must_include:
+            regex: ^Closes \#\d$
+            message: PR must be associated with one or more issues
+          must_include:
+            regex: approved:*
+            message: PR cannot be merged before being approved by maintainers
         must_exclude:
           regex: wip
           message: This PR is marked Work in Progress and cannot be merged
